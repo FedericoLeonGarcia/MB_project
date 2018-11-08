@@ -25,7 +25,7 @@ SECRET_KEY = 'b)unefdibinnl+fpeny%eao&9e3rep5*5yhkppto-(z5qy5i*j'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['167.99.150.27']
 
 
 # Application definition
@@ -76,13 +76,12 @@ WSGI_APPLICATION = 'mb_project.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'messageboarddb',
-        'USER': 'cs250student' ,
-        'PASSWORD': 'w3lcom3stud3nt',
-        'HOST': 'localhost',
-        'PORT':'5432',
-
+         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+         'NAME': 'messageboarddb',
+         'USER': 'cs250student',
+         'PASSWORD': 'w3lcom3stud3nt',
+         'HOST': 'localhost',
+         'PORT': '5432',
     }
 }
 
